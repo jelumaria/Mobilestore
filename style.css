@@ -1,0 +1,274 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+.brand{
+    font-family: "Concert One", system-ui;
+
+
+}
+.custom-icon {
+    font-size: 1.4rem; /* Adjust the size as needed */
+}
+#banner{
+    background-color: rgb(24, 21, 32);
+    height: 95vh;
+    width: 100%;
+}
+.content{
+    color: rgb(97, 93, 93);
+    margin: 40% 0px 0px 20%;
+
+}
+.content h1{
+    font-weight: 100;
+    font-size: 5.5rem;
+    font-family: "Thasadith", sans-serif;
+    color: white;
+
+}
+.pro{
+    font-weight: 600;
+}
+.iphone-image{
+    /* bottom: 0px; */
+    padding-bottom: 0px;
+}
+#small-banner{
+    width: 100%;
+
+}
+.img {
+    width: 360px;
+    height: 343px;
+    object-fit: cover; /* Ensures the image fits the specified dimensions without distortion */
+}
+
+.pro-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Vertically centers the image and text */
+    gap: 20px; /* Adds space between the image and the text */
+}
+.pro-img{
+    width: 104px;
+    height: 272px;
+}
+
+
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.baa, .black {
+    display: flex;
+    flex: 1;
+    align-items: center; /* Align content vertically */
+}
+.baa h4{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;  
+}
+.black{
+    background-color: rgb(39, 38, 38);
+}
+.black p{
+    color: white
+
+}
+.pro-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.macbook{
+    font-family: "Roboto", sans-serif;
+
+    margin-right: 55px;
+}
+.macbook h1{
+    font-family: "Roboto", sans-serif;
+font-weight: 100;
+
+}
+p{
+    font-size: .8rem;
+    color: rgb(97, 93, 93);
+    
+
+}
+#category{
+    height: 300px;
+}
+
+.category-head {
+    margin-top: 70px;
+    
+}
+
+.icon-black {
+    color: black; /* Ensure icons are black */
+}
+
+.icons {
+    font-size: x-large;
+    display: block; /* Ensure icons are block elements for proper alignment */
+    margin-bottom: 10px; /* Space between icon and text */
+}
+
+.names {
+    font-size: 1.1rem;
+    font-weight: 200;
+    margin-bottom: 0; /* Remove bottom margin from text */
+}
+
+.cat-card {
+    width: 170px;
+    background-color: rgb(224, 222, 221);
+    border-radius: 12px;
+    
+    height: 150px;
+    margin-right: 20px; /* Space between cards */
+    padding: 10px; /* Optional padding inside the card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pro-head a {
+    padding-right: 50px; 
+    text-decoration: none;
+}
+.active{
+    color: black;
+    text-decoration: underline;
+}
+.disable{
+    color: gray;
+}
+.disable:hover{
+    color: black;
+    text-decoration: underline;
+}
+.container-fluid {
+    padding-left: 0; /* Ensure no padding on the container-fluid */
+}
+
+
+
+.product-card {
+    background-color: rgb(251, 250, 248);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+    margin: 20px; /* Center the card horizontally */
+    padding: 10px;
+    position: relative;
+}
+
+.product-card img {
+    margin-top: 20px;
+
+    width: 160px;
+    height: 160px;
+}
+
+.product-card .product-info {
+    padding: 15px;
+}
+
+.product-card .product-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-card .product-price {
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.product-card .btn-buy {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.product-card .btn-buy:hover {
+    background-color: #e55d0f;
+}
+
+.product-card .wishlist-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5rem;
+    color: rgb(212, 209, 207);
+    cursor: pointer;
+}
+
+.product-card .wishlist-icon:hover {
+    color: #f70b0b;
+}
+
+.bg-dark-gradient {
+    background: rgb(20, 20, 20);
+    color: white;
+}
+#banner2 .banner-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.footer{
+   
+    padding: 20px;
+     background-color:darkgray;
+     display: flex;
+     flex-direction:row;
+     justify-content: space-evenly;
+    height: 300px;
+ 
+ }
+ 
+ .row1{
+     display: flex;
+     flex-direction:row;
+     justify-content: space-evenly;
+     margin: 30px;
+ 
+ }
+ .col1{
+     width: 150px;
+     display: flex;
+     flex-direction:column;
+     
+ }
+ h4{
+     font-size: large;
+ }
+
+@media (max-width: 767.98px) {
+    .product-card {
+        margin: 0;
+    }
+
+    .pro-head {
+        margin-left: 0;
+    }
+}
+
